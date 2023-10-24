@@ -24,9 +24,7 @@ jobs:
         push: true
         tags: |
           eliasmedeiros37/kube-news:${{ github.run_number }}
-          eliasmedeiros37/kube-news:latest
-      
-             
+          eliasmedeiros37/kube-news:latest    
   CD:
     runs-on: ubuntu-latest
     needs: [CI]
